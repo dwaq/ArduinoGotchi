@@ -51,6 +51,7 @@ U8G2_SSD1306_128X64_NONAME_2_HW_I2C display(U8G2_MIRROR);
 #define PIN_BTN_M 13
 #define PIN_BTN_R 15
 #define PIN_BUZZER 2
+#define ENABLE_TAMA_SOUND
 #elif defined(ESP8266_KIT_B)
 #define PIN_BTN_L 12
 #define PIN_BTN_M 13
